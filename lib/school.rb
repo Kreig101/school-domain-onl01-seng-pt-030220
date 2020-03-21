@@ -1,5 +1,8 @@
 class School 
   
+  attr_accessor :grade
+  
+  
   def initialize(model)
     @model = model 
     @hash = {}
@@ -12,11 +15,9 @@ class School
   
   
   
-  def add_student=(name, grade)
-    @name = name
+  def add_student=(student, grade)
+    @student = student
     @grade= grade
-    
-    
   end    
   
 
