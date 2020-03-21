@@ -1,18 +1,18 @@
 class School 
   
  
- attr_accessor :add_student
+# attr_accessor :add_student
   
   
-  def initialize(model)
-    @model = model 
-    @hash = {}
-  end
+  # def initialize(model)
+  #   @model = model 
+  #   @hash = {}
+  # end
   
-  def roster
-    @hash = {}
+  # def roster
+  #   @hash = {}
 
-  end
+  # end
   
     #   hash[:key] = [] 
     # hash[:key]<< @add_student
