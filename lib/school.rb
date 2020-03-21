@@ -28,9 +28,10 @@ attr_accessor :name, :roster
   end 
   
   def sort
-    binding.pry
+    
     sort_hash = {}
     roster.each do |grade, student|
+      binding.pry
   end
     
     
