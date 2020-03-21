@@ -14,8 +14,8 @@ attr_accessor :name, :roster
   
   def add_student(student, grade)
    
-    hash[:grade] = [] 
-    hash[:grade] << @student
+    @roster[grade] ||= [] 
+    @roster[grade] << student
   end    
   
 
