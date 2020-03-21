@@ -18,8 +18,8 @@ class School
     # hash[:key]<< @add_student
   
   def add_student
-    # @student = student
-    # @grade= grade
+  @student = student
+    @grade= grade  
   end    
   
 
