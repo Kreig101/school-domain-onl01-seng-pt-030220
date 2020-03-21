@@ -8,7 +8,7 @@ class School
   def roster
     @hash = {}
     hash[:key]= [] 
-    << @add_student
+    hash[:key]<< @add_student
   end
   
   
