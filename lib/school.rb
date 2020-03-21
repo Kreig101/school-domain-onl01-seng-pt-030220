@@ -32,7 +32,7 @@ attr_accessor :name, :roster
     sort_hash = {}
     roster.each do |grade, student|
       sort_hash[grade] = student.sort
-      binding.pry
+     
   end
    sort_hash 
   end
