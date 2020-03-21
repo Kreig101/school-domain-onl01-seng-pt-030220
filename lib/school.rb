@@ -17,10 +17,10 @@ class School
     #   hash[:key] = [] 
     # hash[:key]<< @add_student
   
-  # def add_student=(student, grade)
-  #   # @student = student
-  #   # @grade= grade
-  # end    
+  def add_student
+    # @student = student
+    # @grade= grade
+  end    
   
 
   
