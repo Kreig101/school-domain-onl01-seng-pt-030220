@@ -9,7 +9,7 @@ class School
     @hash = {}
   end
   
-  
+  hash[:key] = []
   
   def add_student=(name, grade)
     @name = name
