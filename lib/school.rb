@@ -1,33 +1,22 @@
 class School 
   
  
-
+attr_accessor :name, :roster
   
   
-  def initialize(model)
-    @model = model 
-    @hash = {}
-  end
-  
-  def roster
-    @hash = {}
-
+  def initialize(name)
+    @name = name
+    @roster = {}
   end
   
 
+
   
-  def add_student=(student, grade)
-  @student = student
-    @grade= grade  
-    
+  def add_student(student, grade)
+   
     hash[:grade] = [] 
     hash[:grade] << @student
   end    
   
 
-  
-  def add_student
-    @add_student
-  end
-  
 end
