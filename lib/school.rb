@@ -14,8 +14,8 @@ class School
 
   end
   
-    #   hash[:key] = [] 
-    # hash[:key]<< @add_student
+      hash[:key] = [] 
+    hash[:key]<< @add_student
   
   def add_student=(student, grade)
   @student = student
