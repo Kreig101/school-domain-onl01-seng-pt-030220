@@ -1,7 +1,7 @@
 class School 
   
  
-# attr_accessor :add_student
+
   
   
   def initialize(model)
