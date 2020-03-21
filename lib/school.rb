@@ -25,5 +25,9 @@ attr_accessor :name, :roster
     
   end 
   
+  def sort
+    
+  end
+  
 
 end
