@@ -34,8 +34,7 @@ attr_accessor :name, :roster
       sort_hash[grade] = student.sort
       binding.pry
   end
-    
-    
+   sort_hash 
   end
   
 
