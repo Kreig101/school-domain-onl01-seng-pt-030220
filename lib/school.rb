@@ -9,10 +9,15 @@ class School
     @hash = {}
   end
   
+  
+  
   def add_student=(name, grade)
     @name = name
     @grade= grade
   end    
+  
+  
+  hash=  {:key => ARRAY = []}
   
   def add_student
     @add_student
