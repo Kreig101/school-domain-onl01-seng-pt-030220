@@ -5,14 +5,14 @@ class School
   
   
   def initialize(model)
-  #   @model = model 
-  #   @hash = {}
-  # end
+    @model = model 
+    @hash = {}
+  end
   
-  # def roster
-  #   @hash = {}
+  def roster
+    @hash = {}
 
-  # end
+  end
   
     #   hash[:key] = [] 
     # hash[:key]<< @add_student
