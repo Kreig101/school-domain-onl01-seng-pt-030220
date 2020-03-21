@@ -1,6 +1,6 @@
 class School 
   
-  attr_accessor :grade
+ 
   
   
   def initialize(model)
@@ -13,11 +13,12 @@ class School
 
   end
   
-  
+    #   hash[:key] = [] 
+    # hash[:key]<< @add_student
   
   def add_student=(student, grade)
-    @student = student
-    @grade= grade
+    # @student = student
+    # @grade= grade
   end    
   
 
