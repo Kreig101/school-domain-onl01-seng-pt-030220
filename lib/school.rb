@@ -4,7 +4,7 @@ class School
 # attr_accessor :add_student
   
   
-  # def initialize(model)
+  def initialize(model)
   #   @model = model 
   #   @hash = {}
   # end
